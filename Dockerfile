@@ -41,8 +41,8 @@ ARG TARGETPLATFORM
 ARG VERSION
 
 LABEL com.foundryvtt.version=${FOUNDRY_VERSION}
-LABEL org.opencontainers.image.authors="markf+github@geekpad.com"
-LABEL org.opencontainers.image.vendor="Geekpad"
+LABEL org.opencontainers.image.authors="dev.nathan.guimaraes@gmail.com"
+LABEL org.opencontainers.image.vendor="azure"
 
 ENV FOUNDRY_HOME="/home/foundry"
 ENV FOUNDRY_VERSION=${FOUNDRY_VERSION}
